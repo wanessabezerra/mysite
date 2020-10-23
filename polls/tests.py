@@ -1,4 +1,6 @@
 import datetime
+import django
+django.setup()
 
 from django.test import TestCase
 from django.utils import timezone
